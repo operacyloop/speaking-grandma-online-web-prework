@@ -15,6 +15,7 @@
 
 def speak_to_grandma(the_phrase_you_say)
   if the_phrase_you_say == "I LOVE YOU GRANDMA!"
+<<<<<<< HEAD
     return "I LOVE YOU TOO PUMPKIN!"
   elsif the_phrase_you_say != the_phrase_you_say.upcase
     return "HUH?! SPEAK UP, SONNY!"
@@ -25,3 +26,14 @@ end
 
 string = speak_to_grandma("I LOVE YOU GRANDMA!")
 puts string
+=======
+    puts "I LOVE YOU TOO PUMPKIN!"
+  elsif the_phrase_you_say != the_phrase_you_say.upcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif the_phrase_you_say == the_phrase_you_say.upcase
+    puts "NO, NOT SINCE 1938!"
+
+speak_to_grandma("I LOVE YOU GRANDMA!")
+
+END
+>>>>>>> 95d2b078969340b410316a97c435a7c6d4b3b45b
